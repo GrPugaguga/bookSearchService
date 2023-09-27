@@ -1,0 +1,280 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.menu__item:visited {
+    color: var(--black);
+}
+
+.menu__counter {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 28px;
+    border: 1px solid var(--black);
+    border-radius: 50%;
+    padding: 0 10px;
+
+}
+.book_not__found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 66px;
+}
+
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+span {
+    font-weight: 700;
+}
+
+.book__image {
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 265px;
+
+}
+
+.book__category {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.book__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+}
+
+.book__button {
+    padding: 6px, 8px, 6px, 8px;
+    background-color: var(--black);
+    color: #f2f2f2;
+    gap: 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    text-decoration: none;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 17px;
+
+
+}
+
+.book_button__active {
+    background-color: #f2f2f2;
+    color: var(--black);
+    border: 1px solid var(--black);
+
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+
+.book__description {
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.book__tags {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+    overflow: hidden;
+
+
+}
+
+.book__tag {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid;
+    height: 32px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card__image {
+    background: #dedede;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: start;
+    height: 180px;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    background: var(--black);
+    color: var(--white);
+    min-height: 150px;
+    padding: 10px;
+}
+
+.card__tag {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 15px;
+    margin-bottom: 3px;
+}
+
+.card__name {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 110%;
+    margin-bottom: 8px;
+}
+
+.card__author {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.card__footer {
+    margin-top: auto;
+    display: flex;
+}
+
+.button__add {
+    border-radius: 6px;
+    width: 36px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid var(--white);
+    cursor: pointer;
+}
+
+.button__active {
+    background: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+
+}
+.offset__page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin: 15px;
+
+}
+
+.h4 {
+    cursor: pointer;
+    user-select: none;
+}
+.card_list__loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    padding: 30px;
+}
+
+.card_grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.search {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.search__wrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+}
+
+.search__wrapper img {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.search__input {
+    background: #dedede;
+    border: none;
+    border-radius: 5px;
+    color: #252525;
+    padding: 15px 30px 15px 50px;
+    flex: 1;
+}
+
+.search__input ::placeholder {
+    color: #494949;
+}
+
+.search button {
+    border: none;
+    background: var(--black);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}

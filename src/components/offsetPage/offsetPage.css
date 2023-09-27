@@ -1,0 +1,13 @@
+.offset__page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin: 15px;
+
+}
+
+.h4 {
+    cursor: pointer;
+    user-select: none;
+}
